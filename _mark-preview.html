@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Эскиз в векторе</title>
+<style>
+  body{ margin:0; background:#0a0a0b; color:#f2f0ec;
+        font:14px/1.5 system-ui, sans-serif; padding:18px 24px }
+  h1{ font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+      color:rgba(242,240,236,.42); font-weight:500; margin:0 0 10px }
+  .row{ display:flex; gap:26px; align-items:flex-start; margin-bottom:14px;
+        padding-bottom:14px; border-bottom:1px solid rgba(242,240,236,.1) }
+  .item{ display:flex; flex-direction:column; gap:6px; align-items:center }
+  .cap{ font-size:9px; letter-spacing:.13em; text-transform:uppercase;
+        color:rgba(242,240,236,.35) }
+  .ref{ image-rendering:pixelated; border:1px solid rgba(242,240,236,.15) }
+  object{ display:block; color:#f2f0ec }
+</style>
+</head>
+<body>
+
+<h1>Эскиз · обводка · обводка с выровненным ободом</h1>
+<div class="row">
+  <div class="item">
+    <img class="ref" src="/_sketch.png" width="200" alt="">
+    <span class="cap">эскиз</span>
+  </div>
+  <div class="item">
+    <object data="/_traced.svg" width="200" type="image/svg+xml"></object>
+    <span class="cap">обводка</span>
+  </div>
+  <div class="item">
+    <object data="/_aligned.svg" width="200" type="image/svg+xml"></object>
+    <span class="cap">обод выровнен</span>
+  </div>
+</div>
+
+<h1>Мелкий размер</h1>
+<div class="row">
+  <div class="item">
+    <object data="/_aligned.svg" width="72" type="image/svg+xml"></object>
+    <span class="cap">72</span>
+  </div>
+  <div class="item">
+    <object data="/_aligned.svg" width="36" type="image/svg+xml"></object>
+    <span class="cap">36</span>
+  </div>
+</div>
+
+</body>
+</html>

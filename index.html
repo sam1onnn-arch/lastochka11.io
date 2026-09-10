@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ЛаСТОчка11 — автосервис в Сыктывкаре</title>
+<meta name="description" content="Автосервис ЛаСТОчка11 в Сыктывкаре, улица Школьная, 51. Ремонт авто и мото: диагностика, двигатель, ходовая часть, ТО. Честная цена, названная до начала работ.">
+<meta name="theme-color" content="#0a0a0b">
+
+<!-- TODO: заменить lastochka11.ru на реальный домен во всех четырёх местах ниже.
+     Соцсети и мессенджеры требуют абсолютные адреса — с относительными
+     картинка в превью не подтянется. -->
+<link rel="canonical" href="https://lastochka11.ru/">
+
+<!-- Карточка ссылки в Telegram, WhatsApp, ВКонтакте -->
+<meta property="og:type" content="business.business">
+<meta property="og:site_name" content="ЛаСТОчка11">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="ЛаСТОчка11 — автосервис в Сыктывкаре">
+<meta property="og:description" content="Школьная, 51. Ремонт авто и мото: диагностика, двигатель, ходовая, ТО. Цену называем до начала работ.">
+<meta property="og:url" content="https://lastochka11.ru/">
+<meta property="og:image" content="https://lastochka11.ru/assets/img/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Мастер автосервиса ЛаСТОчка11 у автомобиля с открытым капотом">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400&family=Manrope:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- Разметка организации: по ней Яндекс и Google понимают, что это
+     автосервис с адресом, телефоном и графиком, а не просто страница. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "ЛаСТОчка11",
+  "description": "Автосервис в Сыктывкаре: диагностика, ремонт двигателя, ходовая часть, тормозная система, техобслуживание, автоэлектрика, ремонт мототехники.",
+  "url": "https://lastochka11.ru/",
+  "image": "https://lastochka11.ru/assets/img/og-cover.jpg",
+  "telephone": "+79042723147",
+  "priceRange": "₽₽",
+  "currenciesAccepted": "RUB",
+  "paymentAccepted": "Наличные, банковская карта",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "улица Школьная, 51",
+    "addressLocality": "Сыктывкар",
+    "addressRegion": "Республика Коми",
+    "addressCountry": "RU"
+  },
+  "areaServed": { "@type": "City", "name": "Сыктывкар" },
+  "sameAs": ["https://vk.com/lastochkasto"],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "10:00",
+      "closes": "16:00"
+    }
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Компьютерная диагностика" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ремонт двигателя" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ремонт ходовой части и подвески" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ремонт тормозной системы" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Техническое обслуживание" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Автоэлектрика" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ремонт коробки передач" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ремонт мотоциклов и мототехники" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Проверка автомобиля перед покупкой" } }
+  ]
+}
+</script>
+<!-- TODO к разметке выше:
+     1. Телефон — в двух местах: "telephone" здесь и ссылки в разметке.
+     2. Координаты. Откройте точку в Яндекс.Картах, скопируйте широту и долготу
+        и добавьте сюда блок:
+        "geo": { "@type": "GeoCoordinates", "latitude": 61.6, "longitude": 50.8 }
+     3. Ссылки на карточки в 2ГИС и Яндекс.Картах — так поисковики свяжут
+        сайт с этими профилями:
+        "sameAs": ["https://2gis.ru/...", "https://yandex.ru/maps/org/..."]
+     4. Рейтинг (aggregateRating) намеренно НЕ добавлен: размечать можно только
+        отзывы, собранные на самом сайте. Разметка чужих оценок из 2ГИС —
+        нарушение правил Google и повод для санкций. -->
+</head>
+<body>
+
+<!-- Знак объявлен один раз, дальше подставляется через <use>.
+     Цвет наследуется от текста, поэтому знак сам ложится и на тёмное, и на светлое. -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="logoMark" viewBox="0 0 1254 1254">
+    <path fill="currentColor" fill-rule="evenodd" d="M 1085 447 C 1085 447 1085 449 1085 449 C 1085 449 1051 460 1051 460 C 1051 460 1045.17 469.33 1037 476 C 1028.83 482.67 1014.17 489.33 1002 500 C 989.83 510.67 975.83 529.5 964 540 C 952.17 550.5 947 554.17 931 563 C 915 571.83 885.67 585.83 868 593 C 850.33 600.17 841 602.17 825 606 C 809 609.83 786.67 611.83 772 616 C 757.33 620.17 776.17 607.5 737 631 C 697.83 654.5 589.67 723.17 537 757 C 484.33 790.83 421 834 421 834 C 421 834 419 833 419 833 C 419 833 415.17 835.17 441 811 C 466.83 786.83 543.17 717.5 574 688 C 604.83 658.5 615 646 626 634 C 637 622 640 616 640 616 C 640 616 560.5 626.17 506 636 C 451.5 645.83 313 675 313 675 C 313 675 313.67 672 352 660 C 390.33 648 497.5 617.17 543 603 C 588.5 588.83 601.83 584.33 625 575 C 648.17 565.67 668.67 554.5 682 547 C 695.33 539.5 698.17 536 705 530 C 711.83 524 723 511 723 511 C 723 511 708 499 708 499 C 708 499 708 489 708 489 C 708 489 712 484 712 484 C 712 484 702 482 702 482 C 702 482 694 475 694 475 C 694 475 692 466 692 466 C 692 466 695 459 695 459 C 695 459 688.33 458.67 685 457 C 681.67 455.33 677 451 675 449 C 673 447 673 445 673 445 C 673 445 674 432 674 432 C 674 432 660.5 431.17 656 430 C 651.5 428.83 649.5 427.17 647 425 C 644.5 422.83 641 417 641 417 C 641 417 641 407 641 407 C 641 407 633.17 408 628 407 C 622.83 406 610 401 610 401 C 610 401 602 392 602 392 C 602 392 602 383 602 383 C 602 383 593.17 383.83 588 383 C 582.83 382.17 571 378 571 378 C 571 378 565 372 565 372 C 565 372 563 362 563 362 C 563 362 551.17 362.17 546 361 C 540.83 359.83 535.17 357 532 355 C 528.83 353 527 349 527 349 C 527 349 526 340 526 340 C 526 340 503 337 503 337 C 503 337 488 326 488 326 C 488 326 486 319 486 319 C 486 319 463 315 453 312 C 443 309 426 301 426 301 C 426 301 426 298 426 298 C 426 298 438.67 294 451 293 C 463.33 292 481 291.17 500 292 C 519 292.83 544 295.17 565 298 C 586 300.83 606 304.67 626 309 C 646 313.33 666.83 318.67 685 324 C 703.17 329.33 718 334.17 735 341 C 752 347.83 774 358.33 787 365 C 800 371.67 813 381 813 381 C 813 381 809 375 809 375 C 809 375 809 366 809 366 C 809 366 812 362 812 362 C 812 362 801 354 801 354 C 801 354 798.5 349.33 798 347 C 797.5 344.67 798 340 798 340 C 798 340 803 332 803 332 C 803 332 795 326 795 326 C 795 326 790 314 790 314 C 790 314 791 306 791 306 C 791 306 796 299 796 299 C 796 299 788.33 293.83 786 291 C 783.67 288.17 782.67 285 782 282 C 781.33 279 782 273 782 273 C 782 273 788 265 788 265 C 788 265 780.5 260.67 778 258 C 775.5 255.33 773 249 773 249 C 773 249 773 238 773 238 C 773 238 779 232 779 232 C 779 232 769 225.5 766 222 C 763 218.5 761 211 761 211 C 761 211 762 201 762 201 C 762 201 767 195 767 195 C 767 195 763 194 760 191 C 757 188 749 177 749 177 C 749 177 747 162 747 162 C 747 162 751 154 751 154 C 751 154 743.67 149 741 146 C 738.33 143 736.33 139.67 735 136 C 733.67 132.33 733 124 733 124 C 733 124 738 115 738 115 C 738 115 728.67 108 726 105 C 723.33 102 723.17 100.5 722 97 C 720.83 93.5 719 88.67 719 84 C 719 79.33 722 69 722 69 C 722 69 730 73.67 739 82 C 748 90.33 763.83 106 776 119 C 788.17 132 798 142.67 812 160 C 826 177.33 844.67 200.83 860 223 C 875.33 245.17 891.67 271.17 904 293 C 916.33 314.83 927.83 339.5 934 354 C 940.17 368.5 940.5 371.83 941 380 C 941.5 388.17 940.17 394.33 937 403 C 933.83 411.67 922 432 922 432 C 922 432 927 432.67 936 429 C 945 425.33 966.83 413.83 976 410 C 985.17 406.17 985 406.83 991 406 C 997 405.17 1003.67 403.67 1012 405 C 1020.33 406.33 1034.17 410.83 1041 414 C 1047.83 417.17 1049.83 420.5 1053 424 C 1056.17 427.5 1060 435 1060 435 C 1060 435 1085 447 1085 447 Z M 380 259 C 380 259 413 290 413 290 C 413 290 397.67 301.83 388 312 C 378.33 322.17 364.5 338.33 355 351 C 345.5 363.67 338.67 374.67 331 388 C 323.33 401.33 315.17 417.17 309 431 C 302.83 444.83 298.5 456.17 294 471 C 289.5 485.83 284.83 505.67 282 520 C 279.17 534.33 278 542.33 277 557 C 276 571.67 274.67 588.17 276 608 C 277.33 627.83 281.67 658.33 285 676 C 288.33 693.67 291.83 702 296 714 C 300.17 726 304.5 736.33 310 748 C 315.5 759.67 322 772.33 329 784 C 336 795.67 344.33 807.67 352 818 C 359.67 828.33 366.5 836.67 375 846 C 383.5 855.33 388.5 862 403 874 C 417.5 886 444.83 906.67 462 918 C 479.17 929.33 493.17 935.67 506 942 C 518.83 948.33 526.33 951.33 539 956 C 551.67 960.67 569 966.33 582 970 C 595 973.67 605.83 975.83 617 978 C 628.17 980.17 635.67 981.67 649 983 C 662.33 984.33 680.83 985.83 697 986 C 713.17 986.17 731.67 985.17 746 984 C 760.33 982.83 770.83 981.17 783 979 C 795.17 976.83 806.17 974.5 819 971 C 831.83 967.5 844 964.33 860 958 C 876 951.67 900.5 940.33 915 933 C 929.5 925.67 935.33 921.83 947 914 C 958.67 906.17 974.17 895 985 886 C 995.83 877 1012 860 1012 860 C 1012 860 1043 890 1043 890 C 1043 890 997.83 929.17 979 943 C 960.17 956.83 944.5 965 930 973 C 915.5 981 906.5 985 892 991 C 877.5 997 857.5 1004.33 843 1009 C 828.5 1013.67 818.83 1016 805 1019 C 791.17 1022 775.83 1025 760 1027 C 744.17 1029 726.83 1030.5 710 1031 C 693.17 1031.5 675.67 1031.17 659 1030 C 642.33 1028.83 626.83 1027 610 1024 C 593.17 1021 572.17 1015.83 558 1012 C 543.83 1008.17 536.17 1005.17 525 1001 C 513.83 996.83 504.33 993.33 491 987 C 477.67 980.67 458 970.5 445 963 C 432 955.5 425.33 951.17 413 942 C 400.67 932.83 383.67 919.33 371 908 C 358.33 896.67 347.83 886 337 874 C 326.17 862 315 848.17 306 836 C 297 823.83 291 815.17 283 801 C 275 786.83 264.5 765.83 258 751 C 251.5 736.17 248 725.5 244 712 C 240 698.5 236.67 685.5 234 670 C 231.33 654.5 229 635 228 619 C 227 603 227.17 589.33 228 574 C 228.83 558.67 230.5 542.67 233 527 C 235.5 511.33 239.33 494.17 243 480 C 246.67 465.83 249.83 455.83 255 442 C 260.17 428.17 263.83 416 274 397 C 284.17 378 304.5 345 316 328 C 327.5 311 332.33 306.5 343 295 C 353.67 283.5 380 259 380 259 Z M 673 711 C 673 711 674 947 674 947 C 674 947 610 948 610 948 C 610 948 610 782 610 782 C 610 782 578 800 578 800 C 578 800 578 760 578 760 C 578 760 649 711 649 711 C 649 711 673 711 673 711 Z M 1152 999 C 1152 999 1120.83 1029.17 1107 1041 C 1093.17 1052.83 1082.83 1060.33 1069 1070 C 1055.17 1079.67 1041.17 1089.17 1024 1099 C 1006.83 1108.83 988.5 1119.17 966 1129 C 943.5 1138.83 910.67 1150.83 889 1158 C 867.33 1165.17 854.17 1168 836 1172 C 817.83 1176 797.67 1179.5 780 1182 C 762.33 1184.5 753.17 1186 730 1187 C 706.83 1188 662.33 1188.33 641 1188 C 619.67 1187.67 617.67 1186.83 602 1185 C 586.33 1183.17 566.33 1180.83 547 1177 C 527.67 1173.17 506.33 1168.17 486 1162 C 465.67 1155.83 444.17 1148 425 1140 C 405.83 1132 388 1123.17 371 1114 C 354 1104.83 337 1094.17 323 1085 C 309 1075.83 300.83 1070.17 287 1059 C 273.17 1047.83 254 1031.33 240 1018 C 226 1004.67 215.17 993.17 203 979 C 190.83 964.83 178.17 948.67 167 933 C 155.83 917.33 145.67 901.67 136 885 C 126.33 868.33 116.83 850 109 833 C 101.17 816 95 800.83 89 783 C 83 765.17 77 742.67 73 726 C 69 709.33 67.17 700.33 65 683 C 62.83 665.67 60.67 641.5 60 622 C 59.33 602.5 59.5 585.83 61 566 C 62.5 546.17 65.67 522.17 69 503 C 72.33 483.83 76.17 468.33 81 451 C 85.83 433.67 90.67 417.83 98 399 C 105.33 380.17 116.33 355.5 125 338 C 133.67 320.5 140 309.67 150 294 C 160 278.33 173.83 258.67 185 244 C 196.17 229.33 202.5 221.17 217 206 C 231.5 190.83 272 153 272 153 C 272 153 275 153 275 153 C 275 153 364 242 364 242 C 364 242 364 245 364 245 C 364 245 332.83 273.33 321 286 C 309.17 298.67 302.83 307 293 321 C 283.17 335 270.67 354.67 262 370 C 253.33 385.33 247.5 397.67 241 413 C 234.5 428.33 228.33 444.17 223 462 C 217.67 479.83 212.33 501.5 209 520 C 205.67 538.5 204 555.17 203 573 C 202 590.83 202.17 610.67 203 627 C 203.83 643.33 205.33 655.67 208 671 C 210.67 686.33 215.33 705.5 219 719 C 222.67 732.5 225 739.33 230 752 C 235 764.67 240.67 779.33 249 795 C 257.33 810.67 270.67 832.17 280 846 C 289.33 859.83 293.67 865.17 305 878 C 316.33 890.83 336 911.33 348 923 C 360 934.67 362.17 937 377 948 C 391.83 959 415.83 976.83 437 989 C 458.17 1001.17 479.5 1011.67 504 1021 C 528.5 1030.33 558 1039.33 584 1045 C 610 1050.67 636.67 1053.33 660 1055 C 683.33 1056.67 704.17 1056 724 1055 C 743.83 1054 761.33 1051.83 779 1049 C 796.67 1046.17 812.17 1042.83 830 1038 C 847.83 1033.17 871.5 1025.17 886 1020 C 900.5 1014.83 902 1014.5 917 1007 C 932 999.5 957 987 976 975 C 995 963 1017.17 946.17 1031 935 C 1044.83 923.83 1059 908 1059 908 C 1059 908 1050.5 896.83 1066 912 C 1081.5 927.17 1152 999 1152 999 Z M 725 948 C 725 948 725 782 725 782 C 725 782 693 799 693 799 C 693 799 693 760 693 760 C 693 760 763 710 763 710 C 763 710 787 710 787 710 C 787 710 787 948 787 948 C 787 948 725 948 725 948 Z M 1042 437 C 1042 437 1039 432 1039 432 C 1039 432 1030 431 1030 431 C 1030 431 1027 433 1027 433 C 1027 433 1025 441 1025 441 C 1025 441 1027 445 1027 445 C 1027 445 1036 447 1036 447 C 1036 447 1041 443 1041 443 C 1041 443 1042 437 1042 437 Z"/>
+  </symbol>
+</svg>
+
+
+<!-- ─────────── ПРЕЛОАДЕР ─────────── -->
+<div class="preloader" id="preloader">
+  <img class="preloader__logo" src="assets/img/logo-full.png"
+       alt="ЛаСТОчка&nbsp;11 — автомастерская" width="760" height="713">
+  <span class="preloader__count" id="preloaderCount">0</span>
+  <div class="preloader__bar"><i id="preloaderBar"></i></div>
+</div>
+
+
+<!-- ─────────── ШАПКА ─────────── -->
+<header class="topbar" id="topbar">
+  <a href="#hero" class="topbar__brand">
+    <svg class="topbar__mark" aria-hidden="true"><use href="#logoMark"/></svg>
+    <span class="label">ЛаСТОчка11</span>
+  </a>
+
+  <nav class="topbar__nav">
+    <a href="#about"    class="label">Сервис</a>
+    <a href="#services" class="label">Услуги</a>
+    <a href="#process"  class="label">Процесс</a>
+    <a href="#reviews"  class="label">Отзывы</a>
+    <a href="#contact"  class="label">Контакты</a>
+  </nav>
+
+  <!-- Телефон рядом с кнопкой: звонят чаще, чем заполняют форму,
+       и номер должен быть виден на любом экране, а не только внизу -->
+  <div class="topbar__cta">
+    <a href="tel:+79042723147" class="topbar__tel">+7 (904) 272-31-47</a>
+    <a href="#contact" class="pill pill--sm pill--accent">Записаться</a>
+  </div>
+
+  <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+    <i></i><i></i>
+  </button>
+</header>
+
+<!-- Мобильное меню -->
+<div class="drawer" id="drawer">
+  <nav class="drawer__nav">
+    <a href="#about">Сервис</a>
+    <a href="#services">Услуги</a>
+    <a href="#process">Процесс</a>
+    <a href="#reviews">Отзывы</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+  <div class="drawer__foot">
+    <a href="tel:+79042723147" class="drawer__tel">+7 (904) 272-31-47</a>
+    <p class="label">Сыктывкар, ул.&nbsp;Школьная, 51</p>
+  </div>
+</div>
+
+
+<main>
+
+<!-- ═══════════ ГЛАВНЫЙ ЭКРАН ═══════════ -->
+<section class="hero" id="hero">
+  <div class="hero__media">
+    <img src="assets/img/hero-master.jpg" alt="Мастер автосервиса ЛаСТОчка11 у автомобиля с открытым капотом" id="heroImg">
+  </div>
+  <div class="hero__scrim"></div>
+
+  <div class="hero__grid">
+    <div class="hero__lead">
+      <h1 class="hero__title" id="heroTitle">
+        <span class="line"><span>ЛаСТОчка11&nbsp;—</span></span>
+        <span class="line"><span>заезжай</span></span>
+        <span class="line"><span>ползком,</span></span>
+        <span class="line"><span>уезжай</span></span>
+        <span class="line"><span>летя</span></span>
+      </h1>
+
+      <!-- Слоган запоминается, но обещания в нём нет. Обещание — здесь. -->
+      <p class="hero__sub">Находим настоящую причину, называем цену до&nbsp;начала работ
+        и&nbsp;чиним без&nbsp;лишнего</p>
+
+      <p class="hero__place label label--dim">Авто и&nbsp;мото&nbsp;&middot; Сыктывкар, ул.&nbsp;Школьная,&nbsp;51</p>
+
+      <!-- Статус считается по графику в assets/js/main.js -->
+      <p class="hero__status" id="heroStatus" hidden>
+        <i class="dot" aria-hidden="true"></i><span></span>
+      </p>
+    </div>
+
+    <ul class="hero__spec label">
+      <li>Диагностика</li>
+      <li>Ремонт двигателя</li>
+      <li>Ходовая часть</li>
+      <li>Мототехника</li>
+    </ul>
+
+    <!-- Ведёт вглубь сайта, а не дублирует «Записаться» из шапки -->
+    <div class="hero__actions">
+      <a href="#services" class="pill">Услуги и&nbsp;цены</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════ 01 · СЕРВИС ═══════════ -->
+<section class="chapter chapter--bg" id="about">
+  <div class="chapter__head reveal">
+    <span class="label label--dim">Глава 01</span>
+    <span class="label label--dim">Сервис</span>
+  </div>
+
+  <div class="intro">
+    <h2 class="h-display reveal">
+      Мы&nbsp;чиним<br>чужие машины<br>так, как чинили&nbsp;бы<br>свои
+    </h2>
+
+    <div class="intro__text">
+      <p class="lead reveal">Автосервис на&nbsp;Школьной, 51. Небольшой, без&nbsp;конвейера и&nbsp;очередей: машину принимает тот&nbsp;же мастер, который потом её&nbsp;и&nbsp;отдаёт.</p>
+      <p class="reveal">За&nbsp;плечами больше двадцати лет под капотом&nbsp;— и&nbsp;мы&nbsp;не&nbsp;умеем продавать ненужный ремонт. Сначала находим настоящую причину, потом называем цену и&nbsp;срок&nbsp;— и&nbsp;только после вашего «да» берёмся за&nbsp;работу. Если проблема решается за&nbsp;двадцать минут, так и&nbsp;скажем.</p>
+      <p class="reveal">Работаем с&nbsp;большинством марок: от&nbsp;корейцев и&nbsp;японцев до&nbsp;немецкого премиума и&nbsp;отечественных авто. Кроме машин берём мотоциклы и&nbsp;другую технику&nbsp;— в&nbsp;городе с&nbsp;этим сложнее, чем кажется.</p>
+      <p class="reveal">И&nbsp;берёмся за&nbsp;мелочи, от&nbsp;которых часто отмахиваются: заменить лампу подсветки панели, перетянуть чехлы, довести до&nbsp;ума то, что «и&nbsp;так ездит». Возни много, счёт небольшой&nbsp;— но&nbsp;кому-то это надо сделать.</p>
+    </div>
+  </div>
+
+  <div class="stats">
+    <!-- TODO: цифры ниже — примерные, замените на фактические -->
+    <div class="stat reveal">
+      <span class="stat__num">5,0</span>
+      <span class="label label--dim">Рейтинг в&nbsp;2ГИС</span>
+    </div>
+    <div class="stat reveal">
+      <span class="stat__num">20+</span>
+      <span class="label label--dim">Лет стажа</span>
+    </div>
+    <div class="stat reveal">
+      <span class="stat__num">40+</span>
+      <span class="label label--dim">Марок автомобилей</span>
+    </div>
+    <div class="stat reveal">
+      <span class="stat__num">1&nbsp;год</span>
+      <span class="label label--dim">Гарантия на&nbsp;работы</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════ 02 · УСЛУГИ ═══════════ -->
+<section class="chapter chapter--alt chapter--bg" id="services">
+  <div class="chapter__head reveal">
+    <span class="label label--dim">Глава 02</span>
+    <span class="label label--dim">Услуги</span>
+  </div>
+
+  <h2 class="h-display h-display--sm reveal">Что мы&nbsp;делаем</h2>
+
+  <ul class="services">
+    <li class="service reveal">
+      <span class="service__num label">01</span>
+      <h3 class="service__name">Компьютерная диагностика</h3>
+      <p class="service__desc">Считываем ошибки, проверяем датчики и&nbsp;живые параметры двигателя. Находим причину, а&nbsp;не&nbsp;симптом.</p>
+      <span class="service__price">от&nbsp;900&nbsp;₽</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">02</span>
+      <h3 class="service__name">Ремонт двигателя</h3>
+      <p class="service__desc">От&nbsp;замены цепи и&nbsp;прокладок до&nbsp;капитального ремонта с&nbsp;расточкой и&nbsp;заменой поршневой.</p>
+      <span class="service__price">по&nbsp;диагностике</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">03</span>
+      <h3 class="service__name">Ходовая часть и&nbsp;подвеска</h3>
+      <p class="service__desc">Стойки, рычаги, сайлентблоки, ступичные подшипники, рулевые тяги. Стуки уходят вместе с&nbsp;причиной.</p>
+      <span class="service__price">от&nbsp;1&nbsp;500&nbsp;₽</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">04</span>
+      <h3 class="service__name">Тормозная система</h3>
+      <p class="service__desc">Колодки, диски, суппорты, тормозные шланги и&nbsp;прокачка. Проверяем всю систему, а&nbsp;не&nbsp;одно колесо.</p>
+      <span class="service__price">от&nbsp;1&nbsp;200&nbsp;₽</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">05</span>
+      <h3 class="service__name">Техобслуживание</h3>
+      <p class="service__desc">Масло, фильтры, свечи, антифриз, тормозная жидкость. Со&nbsp;своими расходниками или&nbsp;с&nbsp;нашими.</p>
+      <span class="service__price">от&nbsp;1&nbsp;000&nbsp;₽</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">06</span>
+      <h3 class="service__name">Автоэлектрика</h3>
+      <p class="service__desc">Стартер, генератор, проводка, аккумулятор, свет. Ищем обрыв там, где его&nbsp;не&nbsp;видно.</p>
+      <span class="service__price">от&nbsp;800&nbsp;₽</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">07</span>
+      <h3 class="service__name">Коробка передач</h3>
+      <p class="service__desc">Замена масла в&nbsp;АКПП и&nbsp;МКПП, замена сцепления, ремонт механики.</p>
+      <span class="service__price">по&nbsp;диагностике</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">08</span>
+      <h3 class="service__name">Мото и&nbsp;другая техника</h3>
+      <p class="service__desc">Мотоциклы, скутеры, квадроциклы. Двигатель, электрика, подвеска, подготовка к&nbsp;сезону и&nbsp;консервация.</p>
+      <span class="service__price">по&nbsp;диагностике</span>
+    </li>
+    <li class="service reveal">
+      <span class="service__num label">09</span>
+      <h3 class="service__name">Подготовка к&nbsp;покупке</h3>
+      <p class="service__desc">Смотрим машину перед сделкой: кузов, геометрия, двигатель, электроника. Честный вердикт до&nbsp;того, как вы&nbsp;отдали деньги.</p>
+      <span class="service__price">от&nbsp;2&nbsp;500&nbsp;₽</span>
+    </li>
+  </ul>
+
+  <p class="services__note label label--dim reveal">Цены ориентировочные. Точную стоимость называем после диагностики&nbsp;— до&nbsp;начала работ</p>
+</section>
+
+
+<!-- ═══════════ 03 · ПРОЦЕСС ═══════════ -->
+<section class="chapter chapter--bg" id="process">
+  <div class="chapter__head reveal">
+    <span class="label label--dim">Глава 03</span>
+    <span class="label label--dim">Процесс</span>
+  </div>
+
+  <h2 class="h-display h-display--sm reveal">Пять шагов<br>без сюрпризов</h2>
+
+  <ol class="steps">
+    <li class="step reveal">
+      <span class="step__num">01</span>
+      <div class="step__body">
+        <h3>Запись</h3>
+        <p>Звоните или&nbsp;оставляете заявку. Подбираем время, когда мастер точно свободен.</p>
+      </div>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">02</span>
+      <div class="step__body">
+        <h3>Диагностика</h3>
+        <p>Смотрим машину и&nbsp;находим причину. Показываем, что именно вышло из&nbsp;строя.</p>
+      </div>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">03</span>
+      <div class="step__body">
+        <h3>Согласование</h3>
+        <p>Называем цену и&nbsp;срок. Разделяем на&nbsp;«нужно сейчас» и&nbsp;«может подождать». Решаете&nbsp;вы.</p>
+      </div>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">04</span>
+      <div class="step__body">
+        <h3>Ремонт</h3>
+        <p>Работаем проверенными запчастями. Если по&nbsp;ходу всплывает новое&nbsp;— сначала звоним, потом делаем.</p>
+      </div>
+    </li>
+    <li class="step reveal">
+      <span class="step__num">05</span>
+      <div class="step__body">
+        <h3>Выдача</h3>
+        <p>Отдаём машину и&nbsp;снятые детали. Объясняем, что заменили и&nbsp;за&nbsp;чем&nbsp;следить дальше.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+
+<!-- ═══════════ 04 · ОТЗЫВЫ ═══════════ -->
+<!--
+  ВНИМАНИЕ: тексты отзывов ниже — демонстрационные.
+  В открытых источниках у ЛаСТОчка11 есть только оценка 5,0 (3 оценки в 2ГИС),
+  без опубликованных текстов. Замените блоки на реальные отзывы
+  из 2ГИС / Яндекс.Карт, сохранив имена авторов и даты.
+-->
+<section class="chapter chapter--alt chapter--bg" id="reviews">
+  <div class="chapter__head reveal">
+    <span class="label label--dim">Глава 04</span>
+    <span class="label label--dim">Отзывы</span>
+  </div>
+
+  <div class="reviews__top">
+    <h2 class="h-display h-display--sm reveal">Что говорят<br>клиенты</h2>
+    <div class="rating reveal">
+      <span class="rating__val">5,0</span>
+      <span class="rating__stars" aria-hidden="true">★★★★★</span>
+      <span class="label label--dim">по&nbsp;оценкам в&nbsp;2ГИС</span>
+    </div>
+  </div>
+
+  <div class="reviews">
+    <figure class="review reveal">
+      <blockquote>Пригнал машину со&nbsp;стуком в&nbsp;подвеске, до&nbsp;этого в&nbsp;двух местах разводили руками. Здесь нашли за&nbsp;полчаса, поменяли только&nbsp;то, что реально умерло. Цену назвали заранее и&nbsp;не&nbsp;изменили.</blockquote>
+      <figcaption>
+        <span class="review__name">Алексей&nbsp;М.</span>
+        <span class="label label--dim">Октябрь&nbsp;2025</span>
+      </figcaption>
+    </figure>
+
+    <figure class="review reveal">
+      <blockquote>Делали ТО&nbsp;и&nbsp;меняли колодки. Показали старые детали, объяснили, что можно ещё поездить, а&nbsp;что менять сейчас. Приятно, когда не&nbsp;пытаются впарить лишнего.</blockquote>
+      <figcaption>
+        <span class="review__name">Ирина&nbsp;К.</span>
+        <span class="label label--dim">Сентябрь&nbsp;2025</span>
+      </figcaption>
+    </figure>
+
+    <figure class="review reveal">
+      <blockquote>Обращался с&nbsp;электрикой&nbsp;— пропадала зарядка. Провозились дольше, чем рассчитывали, но&nbsp;итоговый счёт остался тем&nbsp;же, о&nbsp;котором договаривались. Вернусь.</blockquote>
+      <figcaption>
+        <span class="review__name">Дмитрий&nbsp;Р.</span>
+        <span class="label label--dim">Август&nbsp;2025</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+
+<!-- ═══════════ 05 · КОНТАКТЫ ═══════════ -->
+<section class="chapter chapter--bg" id="contact">
+  <div class="chapter__head reveal">
+    <span class="label label--dim">Глава 05</span>
+    <span class="label label--dim">Контакты</span>
+  </div>
+
+  <div class="contact">
+    <div class="contact__info">
+      <h2 class="h-display h-display--sm reveal">Приезжайте<br>или&nbsp;напишите</h2>
+
+      <dl class="contact__list reveal">
+        <div>
+          <dt class="label label--dim">Адрес</dt>
+          <dd>Сыктывкар,<br>ул.&nbsp;Школьная,&nbsp;51</dd>
+        </div>
+        <div>
+          <dt class="label label--dim">Телефон</dt>
+          <!-- TODO: подставить реальный телефон -->
+          <dd><a href="tel:+79042723147">+7 (904) 272-31-47</a></dd>
+        </div>
+        <div>
+          <dt class="label label--dim">Написать</dt>
+          <!-- TODO: проверьте, что WhatsApp привязан к этому номеру -->
+          <dd class="contact__msg">
+            <a href="https://wa.me/79042723147" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://vk.com/lastochkasto" target="_blank" rel="noopener">ВКонтакте</a>
+          </dd>
+        </div>
+        <div>
+          <dt class="label label--dim">Часы работы</dt>
+          <!-- TODO: уточнить график -->
+          <dd>Пн&nbsp;—&nbsp;Пт&nbsp;&nbsp;09:00&nbsp;—&nbsp;19:00<br>Сб&nbsp;&nbsp;10:00&nbsp;—&nbsp;16:00<br>Вс&nbsp;&nbsp;выходной</dd>
+        </div>
+      </dl>
+
+      <a class="pill contact__map-link reveal" href="https://yandex.ru/maps/?text=Сыктывкар, улица Школьная, 51" target="_blank" rel="noopener">Открыть на&nbsp;карте</a>
+    </div>
+
+    <!-- ─── Форма ─── -->
+    <form class="form reveal" id="bookForm" novalidate>
+      <p class="form__title label">Заявка на&nbsp;запись</p>
+
+      <div class="field">
+        <label for="fName" class="label label--dim">Имя</label>
+        <input type="text" id="fName" name="name" autocomplete="name" required>
+        <span class="field__err" data-err></span>
+      </div>
+
+      <div class="field">
+        <label for="fPhone" class="label label--dim">Телефон</label>
+        <input type="tel" id="fPhone" name="phone" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required>
+        <span class="field__err" data-err></span>
+      </div>
+
+      <div class="field">
+        <label for="fCar" class="label label--dim">Марка и&nbsp;модель</label>
+        <input type="text" id="fCar" name="car" placeholder="Например, Skoda Octavia 2015">
+        <span class="field__err" data-err></span>
+      </div>
+
+      <div class="field">
+        <label for="fService" class="label label--dim">Услуга</label>
+        <select id="fService" name="service">
+          <option value="">Не&nbsp;знаю, нужна консультация</option>
+          <option>Компьютерная диагностика</option>
+          <option>Ремонт двигателя</option>
+          <option>Ходовая часть и подвеска</option>
+          <option>Тормозная система</option>
+          <option>Техобслуживание</option>
+          <option>Автоэлектрика</option>
+          <option>Коробка передач</option>
+          <option>Подготовка к покупке</option>
+        </select>
+        <span class="field__err" data-err></span>
+      </div>
+
+      <div class="field field--wide">
+        <label for="fMsg" class="label label--dim">Что беспокоит</label>
+        <textarea id="fMsg" name="message" rows="2" placeholder="Стук спереди справа на кочках"></textarea>
+        <span class="field__err" data-err></span>
+      </div>
+
+      <label class="check">
+        <input type="checkbox" id="fAgree" required>
+        <span>Согласен на&nbsp;обработку персональных данных</span>
+      </label>
+      <span class="field__err" data-err="agree"></span>
+
+      <button type="submit" class="pill pill--accent form__submit" id="formSubmit">Отправить заявку</button>
+
+      <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+
+<!-- ─────────── ПОДВАЛ ─────────── -->
+<footer class="footer">
+  <div class="footer__row">
+    <svg class="topbar__mark" aria-hidden="true"><use href="#logoMark"/></svg>
+    <p class="footer__slogan">Автосервис ЛаСТОчка11&nbsp;— Сыктывкар, ул.&nbsp;Школьная,&nbsp;51</p>
+  </div>
+  <div class="footer__row footer__row--btm">
+    <span class="label label--dim">© 2026 ЛаСТОчка11</span>
+    <a href="#hero" class="label">Наверх&nbsp;↑</a>
+  </div>
+</footer>
+
+<!-- Быстрая связь. Появляется, когда главный экран уходит вверх:
+     на телефоне — панелью снизу, на десктопе — столбиком справа. -->
+<div class="quick" id="quick" hidden>
+  <a class="quick__btn quick__btn--solid" href="tel:+79042723147">Позвонить</a>
+  <a class="quick__btn" href="https://wa.me/79042723147" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="quick__btn" href="https://vk.com/lastochkasto" target="_blank" rel="noopener">ВКонтакте</a>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
